@@ -1,7 +1,5 @@
 # Curriculum Vitae Design
 
-Brief project description or tagline.
-
 <p align="center">
   <img src="./images/cv.jpeg" alt="CV" />
 </p>
@@ -13,7 +11,7 @@ Brief project description or tagline.
 
 - [Getting Started](#getting-started)
 
-- [Preview](#)
+- [Preview](https://m-bachar.github.io/curriculum-vitae-design/)
 
 
 ## Overview
