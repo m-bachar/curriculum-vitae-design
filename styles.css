@@ -1,0 +1,230 @@
+		/*		Main Font   		*/
+
+@font-face {
+	font-family: Ubuntu;
+	src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+* {
+    font-family: Ubuntu;
+    color: #F4EEE0;
+}
+
+		/*		Body Styling		*/
+
+body {
+    background-color: #435165;
+	background-image: url("./images/bg.jpg");
+	height: 100%;
+	background-position: no-center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+    backdrop-filter: blur(100px);
+}
+
+        /*		Sidebar Styling		*/
+		
+.sidebar {
+	position: fixed;
+	height: 100%;
+	width: 350px;
+	top: 0;
+	padding-top: 40px;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #A77CC1;
+	border-width: 3px;
+}
+
+.sidebar div {
+	margin-top: 20px;
+    color: #A77CC1;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar .firstName {
+    border-top: solid;
+    border-color: #A77CC1;
+    color: #F4EEE0;
+    text-align: center;
+}
+
+.sidebar .lastName {
+    margin-top: 0px;
+    border-bottom: solid;
+    border-color: #A77CC1;
+    color: #F4EEE0;
+    text-align: center;
+}
+
+.sidebar h1 {
+	margin-top: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 24px;
+    color: #A77CC1;
+}
+
+.sidebar p {
+	color: #F4EEE0;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+.sidebar img {
+	padding: 10px;
+    margin-left: 40px;
+    height: 250px;
+    border-radius: 50%;
+	border-width: 3px;
+}
+
+
+        /*      Menubar Styling         */
+.menubar {
+    margin-left: 350px;
+    padding-bottom: 50px;
+    display: flex;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: #A77CC1;
+    border-width: 3px;
+}
+
+.menubar a {
+    align-self: center;
+    text-decoration: none;
+    color: #F4EEE0;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 180px;
+    padding: 25px;
+    border: solid;
+    border-width: 3px;
+    border-radius: 15%;
+    border-color: #A77CC1;
+}
+
+.menubar a:hover {
+    color: cadetblue;
+}
+
+		/*		Container Styling		*/
+		
+.container {
+	height: 100%;
+	width: 100%;
+	margin-left: 350px;
+	margin-top: 20px;
+}
+
+.container .headings {
+    text-align: center;
+}
+
+        /*		Social Styling	    	*/
+
+.social {
+    margin-top: 30px;
+	display: flex;
+	border: solid;
+	border-color: #A77CC1;
+	border-width: 3px;
+}
+
+.social div {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 100px;
+    padding-left: 200px;
+    font-size: 20px;
+    align-self: center;
+    font-weight: bolder;
+}
+
+.social a {
+    color: #F4EEE0;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: wavy;
+	color: cadetblue;
+}
+
+        /*		Skills Styling	    	*/
+
+.skills {
+    margin-top: 30px;
+    display: grid;
+    border: solid;
+    border-color: #A77CC1;
+	border-width: 3px;
+}
+
+.headings {
+    margin-top: 20px;
+}
+
+.headings h1 {
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+.skills h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20px;
+    color: cadetblue;
+}
+
+.skills p {
+    margin: 20px;
+    font-size: 22px;
+    padding-left: 60px;
+    font-weight: lighter;
+}
+
+        /*		Footer Styling	    	*/
+.credits {
+	margin-left: 350px;
+	margin-top: 100px;
+    padding-top: 10px;
+    display: grid;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #A77CC1;
+	border-width: 3px;
+}
+
+.credits p {
+	text-align: center;
+	margin: 20px;
+    font-size: 22px;
+    padding-left: 60px;
+    font-weight: lighter;
+}
+
+.credits a {
+    color: #F4EEE0;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.credits a:hover {
+    font-weight: bolder;
+    color: cadetblue;
+    text-decoration: none;
+}
